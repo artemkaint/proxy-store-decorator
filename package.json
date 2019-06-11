@@ -1,7 +1,7 @@
 {
-  "name": "proxy-store-decorator",
+  "name": "react-redux-proxy-store-decorator",
   "version": "0.0.1",
-  "description": "React decorator which decorates component with specific store and keep opportunity to work with global store in component",
+  "description": "React-redux decorator which decorates component with specific store and keep opportunity to work with global store in component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
