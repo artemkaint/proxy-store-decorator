@@ -1,0 +1,36 @@
+{
+  "name": "proxy-store-decorator",
+  "version": "0.0.1",
+  "description": "React decorator which decorates component with specific store and keep opportunity to work with global store in component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "npm run build-es && npm run build-commonjs",
+    "build-es": "babel src --out-dir es",
+    "build-commonjs": "export BABEL_ENV=commonjs; babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemkaint/proxy-store-decorator.git"
+  },
+  "author": "Artem Soltynskiy <artemkaint@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemkaint/proxy-store-decorator/issues"
+  },
+  "homepage": "https://github.com/artemkaint/proxy-store-decorator#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-redux": "^7.1.0"
+  }
+}

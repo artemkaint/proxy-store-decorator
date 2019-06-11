@@ -1,0 +1,10 @@
+{
+  "presets": ["@babel/preset-react"],
+  "env": {
+    "commonjs": {
+      "presets": [
+        "@babel/preset-env"
+      ]
+    }
+  }
+}
